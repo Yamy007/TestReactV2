@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice, isRejectedWithValue } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { userService } from "../../services/apiUserService";
 import { AxiosError } from "axios";
 import { IUser } from "../../interface/user";
