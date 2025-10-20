@@ -8,7 +8,7 @@ export const Home = () => {
     const dispatch = useAppDispatch()
     useEffect(()=>{
       dispatch(userActions.getAllUsers())
-    },[])
+    },[dispatch])
   return (
 
     <div>
