@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
         element: <Layout />,
         children: [
             {
-                path: "/",
+                path: "/TestReactV2",
                 index:true,
                 element:<Home />
 

@@ -12,6 +12,7 @@ export const Home = () => {
   return (
 
     <div>
+      <div>fasfdsf</div>
       <User />
     </div>
   )
