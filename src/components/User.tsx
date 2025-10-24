@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { useAppSelector } from '../hooks/reduxHooks'
+
 import "./style.css"
 export const User = () => {
   const modalRef = useRef<HTMLDivElement>(null)

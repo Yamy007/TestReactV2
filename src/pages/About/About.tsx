@@ -9,7 +9,7 @@ export const About = () => {
 
   useEffect(()=>{
     dispatch(userActions.getUserById(id || ""))
-  },[]
+  },[dispatch,id]
   )
   const {user} = useAppSelector(state=>state.user)
   console.log(user)
